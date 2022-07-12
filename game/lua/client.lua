@@ -74,15 +74,15 @@ end
 CreateThread(function()
 
 	for i = 1, #config.shops.clothing do
-		CreateBlip('Clothing store', 73, 47, 0.7, config.shops.clothing[i])
+		CreateBlip('Loja de roupas', 73, 47, 0.7, config.shops.clothing[i])
 	end
 
 	for i = 1, #config.shops.barber do
-		CreateBlip('Barber shop', 71, 47, 0.7, config.shops.barber[i])
+		CreateBlip('Barbearia', 71, 47, 0.7, config.shops.barber[i])
 	end
 
 	for i = 1, #config.shops.tattoos do
-		CreateBlip('Tattoo shop', 71, 47, 0.7, config.shops.tattoos[i])
+		CreateBlip('Loja de tatuagem', 71, 47, 0.7, config.shops.tattoos[i])
 	end
 
 	while true do

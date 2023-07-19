@@ -171,6 +171,8 @@ export const DEFAULT_CUSTOMIZATION_CONFIG: CustomizationConfig = {
   components: true,
   props: true,
   tattoos: true,
+  allowExit: true,
+  automaticFade: true,
 };
 
 export const DATA_CLOTHES: DataClothes = {
